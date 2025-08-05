@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Harlan and Sierra Wedding Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Rouge+Script&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: linear-gradient(to bottom right, #ffeaf5, #e6f4ff);
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+      }
+
+      .navbar {
+        background-color: linear-gradient(to bottom right, #ffeaf5, #e6f4ff);
+      }
+
+      .navbar-brand {
+        font-family: "Rouge Script", cursive;
+        font-size: 2rem;
+        color: #7e6e64;
+      }
+
+      .nav-link {
+        color: #6a567f !important;
+      }
+
+      .nav-link:hover {
+        color: #9c2f5f !important;
+      }
+
+      .wedding-header {
+        font-family: "Rouge Script", cursive;
+        font-weight: 600;
+        top: 75%;
+        text-shadow: -0.5px 0 #7e6e64, 0 0.5px #7e6e64, 0.5px 0 #7e6e64,
+          0 -0.5px #7e6e64;
+      }
+
+      .celebrate-love {
+        white-space: nowrap;
+        font-family: "Rouge Script", cursive;
+        font-weight: 400;
+        top: 20%;
+      }
+
+      .fancy-font {
+        font-family: "Rouge Script", cursive;
+        font-weight: 400;
+      }
+
+      .portrait-img {
+        max-height: 80vh;
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        margin: 0 auto;
+        object-fit: contain;
+        display: block;
+      }
+
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        background-color: black;
+        border-radius: 50%;
+        width: 2.5rem;
+        height: 2.5rem;
+        background-size: 100% 100%;
+      }
+
+      footer {
+        background-color: #343a40;
+        color: white;
+        padding: 2rem 1rem;
+        text-align: center;
+        margin-top: 4rem;
+      }
+
+      section,
+      .container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+
+      h1.fancy-font {
+        margin-bottom: 1rem;
+        color: #6a567f;
+      }
+
+      .lead {
+        font-size: 1.15rem;
+      }
+    </style>
+  </head>
+  <body class="d-flex flex-column">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+      <div class="container">
+        <!-- Brand/Logo -->
+        <a class="navbar-brand" href="#">Harlan & Sierra</a>
+
+        <!-- Mobile Toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMain"
+          aria-controls="navbarMain"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav Links -->
+        <div class="collapse navbar-collapse" id="navbarMain">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#couple">Wedding date and Location </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#schedule">Accommodation information</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Wedding Colours</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#rsvp">RSVP</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="position-relative w-100" style="height: auto">
+      <img
+        src="Pictures/Main.png"
+        alt="Wedding Banner"
+        class="img-fluid w-100"
+        style="object-fit: cover"
+      />
+
+      <div class="celebrate-love position-absolute start-50 translate-middle">
+        <h1 class="display-4">Celebrate Our Love</h1>
+      </div>
+
+      <header
+        class="wedding-header position-absolute start-50 translate-middle text-center w-100"
+      >
+        <h1 class="display-3 d-flex flex-column">
+          <span style="margin-right: 25vw; color: #f0b7d7">Sierra</span>
+          <span
+            style="
+              color: #d6b976;
+              text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+              text-align: center;
+            "
+            >&amp;</span
+          >
+          <span style="margin-left: 25vw; color: #7ab8c7">Harlan</span>
+        </h1>
+      </header>
+    </div>
+
+    <div class="container text-center my-3">
+      <h1 class="fancy-font display-2">Join us for our celebration</h1>
+      <p class="lead">July 11-12th, 2026</p>
+      <p class="lead">
+        The ceremony will begin promptly at 4:00 PM at Preacher's Point. Please
+        arrive on time and be ready to celebrate with us! If you're camping, we
+        kindly ask that you arrive ahead of time to set up your accommodation
+        prior to the ceremony, we will do our best to have ample space for
+        guests.
+        <a href="https://maps.app.goo.gl/2K1Zjo6FsnUKVh4r6" target="_blank"
+          >Preacher's Point</a
+        >
+      </p>
+    </div>
+
+    <div
+      id="weddingCarousel"
+      class="carousel slide justify-content-center mx-auto my-3"
+      data-bs-ride="carousel"
+      style="width: 100%; max-width: 1000px; text-align: center"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="Pictures/StartKiss.png"
+            class="portrait-img"
+            alt="Wedding photo 1"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="Pictures/EndKiss.png"
+            class="portrait-img"
+            alt="Wedding photo 2"
+          />
+        </div>
+      </div>
+
+      <!-- Carousel Controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#weddingCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#weddingCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container text-center my-3">
+      <h1 class="fancy-font display-2" id="accommodation">
+        Accommodation Information
+      </h1>
+      <p class="lead">
+        Location:
+        <a href="https://maps.app.goo.gl/XZQnh27Eg4LwNhXo6" target="_blank"
+          >Preacher's North Rustic Camping Area</a
+        >
+      </p>
+      <h1 class="fancy-font display-3" id="accommodation">You're Invited!</h1>
+      <p class="lead">
+        We are delighted to invite you to celebrate our wedding at the
+        breathtaking Preacher's Point, located on Abraham Lake, Alberta. This
+        special occasion is too meaningful to be confined to just one day, so we
+        warmly invite you to join us for an extended celebration. After the
+        ceremony, stay the night and camp under the stars, surrounded by the
+        serene beauty of crystal-clear waters and endless mountain views.
+      </p>
+      <h1 class="fancy-font display-4" id="accommodation">Camping Details</h1>
+      <p class="lead">
+        We will be arriving a week prior to the wedding to reserve space for
+        everyone. Please note the following important information.
+      </p>
+      <p class="lead">
+        <strong>Number of Sites:</strong> Sites are not defined in the rustic
+        camping areas.
+      </p>
+      <p class="lead">
+        <strong>Amenities:</strong> Toilets are available on-site.
+      </p>
+      <p class="lead">
+        <strong>Campground Host:</strong> There is no campground host.
+      </p>
+      <p class="lead">
+        <strong>Reservations:</strong> Camping is first-come, first-served. We
+        encourage you to arrive early to secure your spot.
+      </p>
+      <p class="lead">
+        A Public Lands Camping Pass is required for overnight stays at the site.
+        The pass costs $30 per adult, valid for the year.
+      </p>
+      <p class="lead">
+        <strong>Alternative Accommodations: </strong> For guests who prefer not
+        to camp, the charming town of Nordegg is just 45 minutes away and offers
+        a variety of cozy Airbnbs that are well worth considering for your stay.
+        We look forward to celebrating this unforgettable day with you!
+      </p>
+    </div>
+    <img
+      src="Pictures/End.png"
+      alt="Wedding Banner"
+      class="img-fluid w-100"
+      style="object-fit: cover"
+    />
+
+    <div class="container text-center my-3">
+      <h1 class="fancy-font display-2" id="couple">Wedding Colours</h1>
+      <p class="lead">
+        We want you to feel your best, so we kindly request that you dress in
+        semi-formal/cocktail garden party attire.Spring colors are encouraged,
+        but certainly not required. For the gentlemen, jeans are perfectly
+        acceptable.
+      </p>
+    </div>
+
+    <div class="container text-center my-3">
+      <h1 class="fancy-font display-2" id="couple">RSVP Details</h1>
+      <p class="lead">
+        Please kindly RSVP to
+        <a href="mailto:lweddingedwards2026@gmail.com"
+          >lweddingedwards2026@gmail.com</a
+        >
+        by no later than March 1, 2026, so we can finalize our guest list. This
+        invitation extends to your long term significant others, and families
+        are welcome to RSVP in a single email. Regrettably, any RSVPs received
+        after this date will not be able to be accommodated. For any
+        clarification or questions, please don't hesitate to contact us.
+      </p>
+      <h1 class="fancy-font display-3" id="couple">
+        Thank you for being part of our special day!
+      </h1>
+      <p class="lead">
+        We are so grateful for the time and love you will share with us as we
+        begin this new chapter of our lives together in the mountains. Your
+        presence will mean the world to us, and we can't wait to celebrate with
+        you!
+      </p>
+    </div>
+
+    <footer>
+      <p>
+        We are so excited to share this special day with you. We hope you can
+        make it! - Harlan & Sierra
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
