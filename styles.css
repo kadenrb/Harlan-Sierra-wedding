@@ -1,9 +1,11 @@
       body {
         background: linear-gradient(to bottom right, #f8edf2, #e5f4ff);
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        color: #333;
       }
-
+      p {
+        font-family: "Comic Relief", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
       .navbar {
         background-color: linear-gradient(to bottom right, #f19696, #e6f4ff);
       }
@@ -23,14 +25,66 @@
         text-shadow: -0.5px 0 #7e6e64, 0 0.5px #7e6e64, 0.5px 0 #7e6e64,
           0 -0.5px #7e6e64;
       }
-      .flower-border {
+      .flower-border-red {
       position: relative;
       text-align: center;
       padding: 2rem;
       margin: 2rem auto;
-      background: #fffaf6; /* soft, wedding-like background */
-      border: 20px solid transparent;
-      border-image: url('Pictures/pngegg.png') 90 round; /* floral border image */
+      background: #fffaf6;
+      border: 40px solid transparent;
+      border-image: url('Pictures/redFlower.png') 95 round; 
+      border-radius: 50px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      font-family: 'Playfair Display', serif;
+    }
+
+    .flower-border-blue {
+      position: relative;
+      text-align: center;
+      padding: 2rem;
+      margin: 2rem auto;
+      background: #fffaf6; 
+      border: 40px solid transparent;
+      border-image: url('Pictures/blueFlower.png') 95 round; 
+      border-radius: 50px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      font-family: 'Playfair Display', serif;
+    }
+
+    .flower-border-pink {
+      position: relative;
+      text-align: center;
+      padding: 2rem;
+      margin: 2rem auto;
+      background: #fffaf6; 
+      border: 40px solid transparent;
+      border-image: url('Pictures/pinkFlower.png') 95 round; 
+      border-radius: 50px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      font-family: 'Playfair Display', serif;
+    }
+
+    .flower-border-purple {
+      position: relative;
+      text-align: center;
+      padding: 2rem;
+      margin: 2rem auto;
+      background: #fffaf6; 
+      border: 40px solid transparent;
+      border-image: url('Pictures/purpleFlower.png') 95 round; 
+      border-radius: 50px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      font-family: 'Playfair Display', serif;
+    }
+
+    .flower-border-orange {
+      position: relative;
+      text-align: center;
+      padding: 2rem;
+      margin: 2rem auto;
+      background: #fffaf6; 
+      border: 40px solid transparent;
+      border-image: url('Pictures/orangeFlower.png') 95 round; 
       border-radius: 50px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
       font-family: 'Playfair Display', serif;
