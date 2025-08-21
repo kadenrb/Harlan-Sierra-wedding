@@ -29,8 +29,8 @@
       padding: 2rem;
       margin: 2rem auto;
       background: #fffaf6; /* soft, wedding-like background */
-      border: 10px solid transparent;
-      border-image: url('Pictures/549.jpg') 30 round; /* floral border image */
+      border: 20px solid transparent;
+      border-image: url('Pictures/pngegg.png') 90 round; /* floral border image */
       border-radius: 50px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
       font-family: 'Playfair Display', serif;
