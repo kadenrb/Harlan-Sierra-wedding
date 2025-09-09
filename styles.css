@@ -26,6 +26,16 @@
         text-shadow: -0.5px 0 #7e6e64, 0 0.5px #7e6e64, 0.5px 0 #7e6e64,
           0 -0.5px #7e6e64;
       }
+
+      .double-border {
+      border: 1.5vw double #cab072a8;
+      padding: 5vw; /* space inside the border */
+      margin: 4vw 2vw; /* space outside the border */
+      border-radius: 10px;
+      background: #fffaf6;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      }
+
       .flower-border-red {
       position: relative;
       text-align: center;
